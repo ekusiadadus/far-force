@@ -1,7 +1,7 @@
 ---
 title: "Rustでコマンドラインツールを爆速で作る環境を構築しよう2022年版"
 type: "tech" # tech: 技術記事 / idea: アイデア記事
-topics: ["Rust", "cli", "clap"] # タグ。["markdown", "rust", "aws"]のように指定する
+tags: ["Rust", "cli", "clap"] # タグ。["markdown", "rust", "aws"]のように指定する
 published: true # 公開設定（falseにすると下書き）
 ---
 

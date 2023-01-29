@@ -1,9 +1,10 @@
 ---
 title: パン屋のアルゴリズム
-tags: Rust C++ 並行処理 アセンブラ
 author: ekusiadadus
 slide: false
+tags: ["Rust", "C++", "並行処理", "アセンブラ"]
 ---
+
 # パン屋のアルゴリズムを理解する
 
 パン屋のアルゴリズムとは、並行プログラミングにおいて、安全に相互排除を行うためのアルゴリズムです。
@@ -13,12 +14,11 @@ slide: false
 
 http://nob.cs.ucdavis.edu/classes/ecs150-1999-02/sync-bakery.html
 
-
 ## アトミック処理
 
 アトミック処理とは、別スレッドからの干渉を受けずに実行することのできる処理です。
 
-例えば、以下のようなcompare_and_swap関数を考えたときに、この処理はアトミック処理でしょうか？
+例えば、以下のような compare_and_swap 関数を考えたときに、この処理はアトミック処理でしょうか？
 
 ### うまくいかないコード
 
@@ -58,13 +58,13 @@ compare_and_swap(unsigned long*, unsigned long, unsigned long):
 ```
 
 一般的には、違うみたいです。
-C言語で記した処理は、コンパイラ(gcc)でアセンブリコードにコンパイルすると、実際は複数の操作を組み合わせて実現されています。
+C 言語で記した処理は、コンパイラ(gcc)でアセンブリコードにコンパイルすると、実際は複数の操作を組み合わせて実現されています。
 従って、別スレッドからの干渉を受けずに実行できる処理ではない為、アトミック処理とは一般的には言えません。
 
 ### うまくいくコード
 
 しかし、最近のプログラミング言語ではアトミックに処理する機構が多く用意されています。
-例えば、上のcompare_and_swapをアトミック処理する組み込み関数、__sync_bool_compare_and_swapが用意されています。
+例えば、上の compare_and_swap をアトミック処理する組み込み関数、\_\_sync_bool_compare_and_swap が用意されています。
 https://gcc.gnu.org/onlinedocs/gcc-4.1.0/gcc/Atomic-Builtins.html
 
 ```c++
@@ -94,9 +94,9 @@ compare_and_swap(unsigned long*, unsigned long, unsigned long):
 ```
 lock cmpxchg
 ```
-lock を用いて、cmpxchg命令を行うことで、アトミック処理を行います。
-https://docs.microsoft.com/ja-jp/windows-hardware/drivers/debugger/x86-instructions
 
+lock を用いて、cmpxchg 命令を行うことで、アトミック処理を行います。
+https://docs.microsoft.com/ja-jp/windows-hardware/drivers/debugger/x86-instructions
 
 ## ミューテックス
 
@@ -183,19 +183,19 @@ some_func():
 ## セマフォ
 
 ミューテックスは、並行プログラミングの際に同時に実行されているプログラム間で、リソースの排他制御、同期を行う仕組みの一つ。
-クリティカルセクションをN個持つ。
+クリティカルセクションを N 個持つ。
 
 ## Lamport's bakery algorithm
 
-[参考1](https://github.com/oreilly-japan/conc_ytakano)
-[参考2](http://nob.cs.ucdavis.edu/classes/ecs150-1999-02/sync-bakery.html)
+[参考 1](https://github.com/oreilly-japan/conc_ytakano)
+[参考 2](http://nob.cs.ucdavis.edu/classes/ecs150-1999-02/sync-bakery.html)
 Lamport's bakery algorithm は、アトミック命令をサポートしない場合の同期処理手法です。
-上に出てきた、アトミック処理をベースとしたミューテックス、セマフォ、RWロック等の手法が採用できない場合に用います。
+上に出てきた、アトミック処理をベースとしたミューテックス、セマフォ、RW ロック等の手法が採用できない場合に用います。
 
-実際にちゃんと動くソースコードは、著者様の[参考1](https://github.com/oreilly-japan/conc_ytakano)を確認して下さい。
+実際にちゃんと動くソースコードは、著者様の[参考 1](https://github.com/oreilly-japan/conc_ytakano)を確認して下さい。
 今回は、メモリバリアを行わないで動かしてみた場合の結果を見てみようと思います。
 
-unsafeなパン屋アルゴリズムと実行結果
+unsafe なパン屋アルゴリズムと実行結果
 
 ```Rust
 use std::ptr::{read_volatile, write_volatile};
@@ -298,14 +298,12 @@ fn main() {
 
 ```
 
-このコードでは、[参考1](https://github.com/oreilly-japan/conc_ytakano)と比べて、
+このコードでは、[参考 1](https://github.com/oreilly-japan/conc_ytakano)と比べて、
 
 1. メモリバリアをしない
-1. read_volatile, write_volatileをマクロ化しない
+1. read_volatile, write_volatile をマクロ化しない
 
 ことをしています。
-
-
 
 実際に、`cargo run --release` してみると、実行結果が不安定になります。
 
@@ -315,4 +313,3 @@ fn main() {
 ## 参考
 
 https://github.com/oreilly-japan/conc_ytakano
-

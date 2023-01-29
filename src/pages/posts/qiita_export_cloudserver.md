@@ -1,6 +1,6 @@
 ---
 title: クラウドサーバーを作る
-tags: RaspberryPi nextcloud ubuntu20.04
+tags: ["RaspberryPi", "nextcloud", "ubuntu20.04"]
 author: ekusiadadus
 slide: false
 ---

@@ -1,6 +1,6 @@
 ---
 title: 仕事中にワールドカップをばれないように見る、CLIツールをRustで作ってみた
-tags: Twitter, WorldCup, CLI, Rust
+tags: ["Twitter", "WorldCup", "CLI", "Rust"]
 author: ekusiadadus
 slide: false
 ---
