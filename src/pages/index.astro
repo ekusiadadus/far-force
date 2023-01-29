@@ -1,15 +1,32 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
 import Card from "../components/Card.astro";
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="絶望ドメインのブログ">
   <main>
-    <h1>Welcome to <span class="text-gradient">Astro</span></h1>
-      <body>
-        <a href="/">Home</a>
-        <a href="/about/">About</a>
-        <a href="/blog/">Blog</a>
-      </body>
+    <Header />
+    <ul>
+      <Card
+        title="blog"
+        body="A blog is a discussion or informational website published on the World Wide Web consisting of discrete, often informal diary-style text entries (posts). Posts are typically displayed in reverse chronological order, so that the most recent post appears first, at the top of the web page."
+        href="/blog/"
+        emoji="📝"
+      />
+    </ul>
   </main>
 </Layout>
+
+<style>
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+</style>
