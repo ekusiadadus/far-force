@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: "Rustでコマンドラインツールを爆速で作る環境を構築しよう2022年版"
 type: "tech" # tech: 技術記事 / idea: アイデア記事
 tags: ["Rust", "cli", "clap"] # タグ。["markdown", "rust", "aws"]のように指定する

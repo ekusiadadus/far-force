@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: クラウドサーバーを作る
 tags: ["RaspberryPi", "nextcloud", "ubuntu20.04"]
 author: ekusiadadus

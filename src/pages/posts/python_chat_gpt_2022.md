@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: 今話題の ChatGPT を Python でいい感じに使ってみよう！
 tags: Python, ChatGPT, GPT-3
 author: ekusiadadus

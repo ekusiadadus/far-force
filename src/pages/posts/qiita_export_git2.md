@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: git基礎（実践）
 tags: Git 勉強会
 author: ekusiadadus

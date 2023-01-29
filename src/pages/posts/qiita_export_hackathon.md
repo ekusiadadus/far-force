@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: ハッカソン型インターンの運営をした話
 tags: ["ハッカソン", "インターン", "React", "Firebase", "競技プログラミング"]
 author: ekusiadadus

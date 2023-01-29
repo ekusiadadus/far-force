@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: 自作PC構成2020
 tags: 自作PC
 author: ekusiadadus

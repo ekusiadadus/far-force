@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: Twitter を BigQuery と JupyterLab で分析してみた ~ Twitter API v2 ~
 tags: ["Twitter", "BigQuery", "JupyterLab", "Python"]
 author: ekusiadadus

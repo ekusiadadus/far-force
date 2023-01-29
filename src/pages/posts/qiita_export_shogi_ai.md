@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: 将棋AIを作る
 tags: ["AI", "将棋", "Chainer", "NVIDIA", "Ryzen"]
 author: ekusiadadus

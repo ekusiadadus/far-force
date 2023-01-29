@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: Go言語+Elasticsearchで簡易求人検索バックエンド構築
 tags: ["Go", "Elasticsearch", "Kibana", "Docker", "docker-compose"]
 author: ekusiadadus

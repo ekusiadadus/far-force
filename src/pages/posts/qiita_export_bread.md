@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: パン屋のアルゴリズム
 author: ekusiadadus
 slide: false
