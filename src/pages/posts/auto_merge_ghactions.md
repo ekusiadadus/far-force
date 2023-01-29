@@ -1,9 +1,14 @@
 ---
-title: "GitHub Actionsで、Cron定期実行でプルリクエストを作成してマージする" # 記事のタイトル
-emoji: "⛄" # アイキャッチとして使われる絵文字（1文字だけ）
-type: "tech" # tech: 技術記事 / idea: アイデア記事
-topics: ["GitHub", "GitHub Actions"] # タグ。["markdown", "rust", "aws"]のように指定する
-published: true # 公開設定（falseにすると下書き）
+layout: ../../layouts/MarkdownPostLayout.astro
+title: "GitHub Actions で、Cron 定期実行でプルリクエストを作成してマージする"
+pubDate: 2022-12-03
+description: "GitHub Actions で、Cron 定期実行でプルリクエストを作成してマージする"
+author: "@ekusiadadus"
+image:
+  url: "https://avatars.githubusercontent.com/u/70436490?s=400&u=a714da7802c65046265c6848887eecddfc58b5c0&v=4"
+  alt: "GitHub Actions で、Cron 定期実行でプルリクエストを作成してマージする"
+tags: ["GitHub Actions", "Cron", "GitHub CLI"]
+published: true
 ---
 
 # GitHub Actions で、自動でプルリクを作成してマージする方法

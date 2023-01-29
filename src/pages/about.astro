@@ -1,5 +1,4 @@
 ---
-import Header from "../components/Header.astro";
 import Layout from "../layouts/Layout.astro";
 import "../styles/global.css";
 const pageTitle = "About";
@@ -17,18 +16,22 @@ const sns = [
   {
     name: "Twitter",
     url: "https://twitter.com/ekusiadadus",
+    icon: "https://cdn.svgporn.com/logos/twitter.svg",
   },
   {
     name: "GitHub",
     url: "https://github.com/ekusiadadus",
+    icon: "https://cdn.svgporn.com/logos/github-icon.svg",
   },
   {
     name: "LinkedIn",
     url: "https://www.linkedin.com/in/ekusiadadus/",
+    icon: "https://cdn.svgporn.com/logos/linkedin.svg",
   },
   {
     name: "YouTube",
     url: "https://www.youtube.com/@ekusiadadus",
+    icon: "https://cdn.svgporn.com/logos/youtube.svg",
   },
 ];
 
@@ -184,49 +187,34 @@ const skills = [
 ---
 
 <Layout title={pageTitle}>
-  <main>
-    <body>
-      <Header />
-      <h1>絶望ドメインは、絶望のドメインです。</h1>
-      <img src="/ekusiadadus.png" alt="絶望ドメインのロゴ" />
-      <h2>SNS</h2>
-      <ul>
-        {
-          sns.map((s) => (
-            <li class="sns">
-              <a href={s.url} target="_blank">
-                {s.name}
-              </a>
-            </li>
-          ))
-        }
-      </ul>
-      <h2>Skills</h2>
-      <ul>
-        {
-          skills.map((skill) => (
-            <li class={skill.level}>
-              {skill.name} - {skill.level} -
-              <img src={skill.icon} alt={skill.name} class="lang-icon" />
-            </li>
-          ))
-        }
-      </ul>
-    </body>
-
-    <style>
-      h1 {
-        color: red;
-      }
-    </style>
-  </main>
+  <h1>絶望ドメインは、絶望のドメインです。</h1>
+  <img src="/ekusiadadus.png" alt="絶望ドメインのロゴ" />
+  <h2>SNS</h2>
+  <ul class="sns-icon-ul">
+    {
+      sns.map((s) => (
+        <li class="sns">
+          <a href={s.url} target="_blank">
+            {s.name} - <img src={s.icon} alt={s.name} class="sns-icon" />
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+  <h2>Skills</h2>
+  <ul>
+    {
+      skills.map((skill) => (
+        <li class={skill.level}>
+          {skill.name} - {skill.level} -
+          <img src={skill.icon} alt={skill.name} class="lang-icon" />
+        </li>
+      ))
+    }
+  </ul>
 </Layout>
 
 <style>
-  h1 {
-    color: red;
-    font-size: 4rem;
-  }
   .skill {
     color: blue;
     font-weight: bold;
@@ -235,7 +223,7 @@ const skills = [
     color: green;
     font-weight: bold;
   }
-  ul {
+  .sns-icon-ul {
     display: grid;
     grid-gap: 1rem;
   }
@@ -252,5 +240,9 @@ const skills = [
   }
   .Intermediate {
     color: blue;
+  }
+  .sns-icon {
+    width: 20px;
+    height: 20px;
   }
 </style>

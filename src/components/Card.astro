@@ -1,12 +1,13 @@
 ---
 export interface Props {
   title: string;
-  body: string;
-  href: string;
+  body?: string;
+  href?: string;
+  description?: string;
   emoji?: string | null;
 }
 
-const { href, title, body, emoji } = Astro.props;
+const { href, title, body, emoji, description } = Astro.props;
 ---
 
 <li class="link-card">
@@ -16,7 +17,7 @@ const { href, title, body, emoji } = Astro.props;
       <span>&rarr;</span>
       {emoji && <span>{emoji}</span>}
       <p>
-        {body}
+        {description}
       </p>
     </h2>
   </a>

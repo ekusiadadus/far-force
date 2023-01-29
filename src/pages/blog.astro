@@ -1,80 +1,20 @@
 ---
-import Header from "../components/Header.astro";
+import Layout from "../layouts/Layout.astro";
+const allPosts = await Astro.glob("../pages/posts/*.md");
+import Card from "../components/Card.astro";
+import BlogPost from "../components/BlogPost.astro";
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Astro</title>
-  </head>
-  <body>
-    <Header />
-    <h1>ブログ記事</h1>
-    <p>絶望ドメインのブログ記事まとめです</p>
-    <ul>
-      <li>
-        <a href="/posts/cloud_vision_2022"
-          >Google Cloud Vision APIを使ってみた</a
-        >
-      </li>
-      <li>
-        <a href="/posts/decode_qrcode_from_url">URLからQRコードを生成する</a>
-      </li>
-      <li>
-        <a href="/posts/dont_be_afraid_shortcut_ide"
-          >ショートカットでIDEを使いこなそう</a
-        >
-      </li>
-      <li><a href="/posts/grafbase-ekusiadadus">Grafbaseを使ってみた</a></li>
-      <li>
-        <a href="/posts/how_to_upgrade_to_react18"
-          >React 18にアップグレードする</a
-        >
-      </li>
-      <li>
-        <a href="/posts/isucon12-qualify-ekusiadadus">ISUCON12予選の結果</a>
-      </li>
-      <li>
-        <a href="/posts/mother_fucker_40s">40代のエンジニアになるために</a>
-      </li>
-      <li>
-        <a href="/posts/mysql_slow_query_with_mysql_workbench"
-          >MySQL Workbenchで遅いクエリを見つける</a
-        >
-      </li>
-      <li>
-        <a href="/posts/python_chat_gpt_2022"
-          >Pythonでチャットボットを作ってみた</a
-        >
-      </li>
-      <li><a href="/posts/qiita_export_bread">パンを焼く</a></li>
-      <li>
-        <a href="/posts/qiita_export_cloudserver">クラウドサーバーを作る</a>
-      </li>
-      <li><a href="/posts/qiita_export_createpc">パソコンを作る</a></li>
-      <li><a href="/posts/qiita_export_git1">Gitの基本</a></li>
-      <li><a href="/posts/qiita_export_git2">Gitの高度な使い方</a></li>
-      <li>
-        <a href="/posts/qiita_export_golang_hr">Golangでハローワールド</a>
-      </li>
-      <li>
-        <a href="/posts/qiita_export_hackathon">ハッカソンで作ったもの</a>
-      </li>
-      <li><a href="/posts/qiita_export_shogi_ai">将棋AIを作ってみた</a></li>
-      <li>
-        <a href="/posts/rust_cli_template_2022"
-          >RustでCLIツールを作るテンプレート</a
-        >
-      </li>
-      <li>
-        <a href="/posts/twitter_bigquery_jupyterlab1"
-          >TwitterのデータをBigQueryで分析する</a
-        >
-      </li>
-      <li>
-        <a href="/posts/world_cup_2022_cli">2022年ワールドカップのCLIツール</a>
-      </li>
-    </ul>
-  </body>
-</html>
+<Layout>
+  <ul>
+    {allPosts.map((post) => <BlogPost post={post} />)}
+  </ul>
+</Layout>
+
+<style>
+  ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1rem;
+  }
+</style>

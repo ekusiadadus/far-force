@@ -1,8 +1,13 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: GCP Cloud Vision よく使う機能まとめ ~ Go言語 ~
-tags: GCP, Go,
-author: ekusiadadus
-slide: false
+pubDate: 2022-12-03
+description: "GCP Cloud Vision よく使う機能まとめ ~ Go言語 ~"
+author: "@ekusiadadus"
+image:
+  url: "https://avatars.githubusercontent.com/u/70436490?s=400&u=a714da7802c65046265c6848887eecddfc58b5c0&v=4"
+  alt: "GCP Cloud Vision よく使う機能まとめ ~ Go言語 ~"
+tags: ["gcp", "cloud vision", "go"]
 ---
 
 # GCP Cloud Vision 機能一覧 with Go 言語
@@ -20,16 +25,16 @@ Cloud Vision API の機能一覧と実際にどのような場面で使えるか
 Cloud Vision API は以下の機能を提供しています。(他にもあるかも)
 
 - [GCP Cloud Vision 機能一覧 with Go 言語](#gcp-cloud-vision-機能一覧-with-go-言語)
-  - [機能一覧](#機能一覧)
-  - [顔認識](#顔認識)
-  - [ラベル検出](#ラベル検出)
-  - [ランドマーク検出](#ランドマーク検出)
-  - [テキスト検出](#テキスト検出)
-  - [ドキュメントテキスト検出](#ドキュメントテキスト検出)
-  - [プロパティ検出](#プロパティ検出)
-  - [Web 検出](#web-検出)
-  - [会社のロゴで全部やってみる](#会社のロゴで全部やってみる)
-  - [最後に](#最後に)
+	- [機能一覧](#機能一覧)
+	- [顔認識](#顔認識)
+	- [ラベル検出](#ラベル検出)
+	- [ランドマーク検出](#ランドマーク検出)
+	- [テキスト検出](#テキスト検出)
+	- [ドキュメントテキスト検出](#ドキュメントテキスト検出)
+	- [プロパティ検出](#プロパティ検出)
+	- [Web 検出](#web-検出)
+	- [会社のロゴで全部やってみる](#会社のロゴで全部やってみる)
+	- [最後に](#最後に)
 
 ## 顔認識
 

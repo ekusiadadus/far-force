@@ -1,34 +1,11 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import "../styles/global.css";
+import Hamburger from "./Hamburger.astro";
+import Navigation from "./Navigation.astro";
 ---
 
-<Layout title="絶望ドメイン">
-  <header>
-    <a href="/">Home</a>
-    <a href="/about/">About</a>
-    <a href="/blog/">Blog</a>
-  </header>
-</Layout>
-
-<style>
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-  }
-  header a {
-    color: #333;
-    text-decoration: none;
-    font-weight: bold;
-  }
-
-  header a:hover {
-    color: #0070f3;
-  }
-
-  header a:not(:last-child) {
-    margin-right: 1rem;
-  }
-</style>
+<header>
+  <nav>
+    <Hamburger />
+    <Navigation />
+  </nav>
+</header>

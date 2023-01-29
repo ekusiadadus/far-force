@@ -1,8 +1,13 @@
 ---
-title: "IDEショートカットは怖くない"
-type: "tech" # tech: 技術記事 / idea: アイデア記事
-topics: ["goland", "CLion", "Pycharm", "IntelliJ", "VSCode"] # タグ。["markdown", "rust", "aws"]のように指定する
-published: true # 公開設定（falseにすると下書き）
+layout: ../../layouts/MarkdownPostLayout.astro
+title: IDEショートカットは怖くない
+pubDate: 2022-12-03
+description: "IDEショートカットは怖くない"
+author: "@ekusiadadus"
+image:
+  url: "https://avatars.githubusercontent.com/u/70436490?s=400&u=a714da7802c65046265c6848887eecddfc58b5c0&v=4"
+  alt: "GCP Cloud Vision よく使う機能まとめ ~ Go言語 ~"
+tags: ["IntelliJ", "VSCode"]
 ---
 
 こんにちは、[@ekusiadadus](https://qiita.com/ekusiadadus)です。

@@ -1,11 +1,14 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: QRコードをURLからデコードするアプリをFlutterで作る
-tags: Flutter, QRCode, Dart
-author: ekusiadadus
-slide: false
+pubDate: 2021-09-06
+description: QRコードをURLからデコードするアプリをFlutterで作る
+author: "@ekusiadadus"
+image:
+  url: "https://avatars.githubusercontent.com/u/70436490?s=400&u=a714da7802c65046265c6848887eecddfc58b5c0&v=4"
+  alt: "QRコードをURLからデコードするアプリをFlutterで作る"
+tags: ["Flutter", "QRコード", "URL"]
 ---
-
-# QR コードを URL からデコードするアプリを Flutter で作る
 
 こんにちは、@ekusiadadus です。
 ひょんなことから QR コードを URL や Image ファイルからデコードするスマホアプリを作ることになりました。

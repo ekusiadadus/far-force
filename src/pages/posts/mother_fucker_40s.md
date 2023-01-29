@@ -1,11 +1,15 @@
 ---
-title: "『おっさん美少女を描いて！』を；実現したい！"
-emoji: "🍇" # アイキャッチとして使われる絵文字（1文字だけ）
-type: "tech" # tech: 技術記事 / idea: アイデア記事
-topics: [
+layout: ../../layouts/MarkdownPostLayout.astro
+title: 『おっさん美少女を描いて！』を；実現したい！
+pubDate: 2022-12-03
+description: "『おっさん美少女を描いて！』を；実現したい！"
+author: "@ekusiadadus"
+image:
+  url: "https://avatars.githubusercontent.com/u/70436490?s=400&u=a714da7802c65046265c6848887eecddfc58b5c0&v=4"
+  alt: "『おっさん美少女を描いて！』を；実現したい！"
+tags: [
 "Python",
-"機械学習","whisper","StableDiffusion","ChatGPT"] # タグ。["markdown", "rust", "aws"]のように指定する
-published: true # 公開設定（falseにすると下書き）
+"機械学習","whisper","StableDiffusion","ChatGPT"]
 ---
 
 どうも、おっさんです。

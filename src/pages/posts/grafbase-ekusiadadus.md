@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: "grafbase で GraphQL やってみたけど動かない"
 emoji: "🍉" # アイキャッチとして使われる絵文字（1文字だけ）
 type: "tech" # tech: 技術記事 / idea: アイデア記事
@@ -12,13 +13,13 @@ published: true # 公開設定（falseにすると下書き）
 
 ![](/images/grafbase/1.png)
 
-上のようなUIで、かっこいい。
+上のような UI で、かっこいい。
 
 ![](/images/grafbase/2.png)
 
 テンプレートは、いくつか存在している様子。
 
-todo用のスキーマ
+todo 用のスキーマ
 
 ```graphql
 type TodoList @model {
@@ -33,7 +34,6 @@ type Todo @model {
   title: String!
   complete: Boolean!
 }
-
 ```
 
 ブログ用のスキーマ
@@ -64,7 +64,7 @@ type Comment @model {
 
 ![](/images/grafbase/3.png)
 
-こんな感じで、GitHubにリポジトリも作成してくれる。
+こんな感じで、GitHub にリポジトリも作成してくれる。
 
 ここで、問題発生。
 
@@ -74,12 +74,11 @@ https://twitter.com/ekusiadadus/status/1552797936588922881?s=20&t=Jk6Wvqx2pzrSEo
 
 ![](/images/grafbase/4.png)
 
-GitHubで、適当にコミットをプッシュすると正常判定されるらしい...(なんで)
+GitHub で、適当にコミットをプッシュすると正常判定されるらしい...(なんで)
 
 ![](/images/grafbase/5.png)
 
-
-playgroundは、ずーとロード中でうごかない:(
+playground は、ずーとロード中でうごかない:(
 
 ```
 curl \
