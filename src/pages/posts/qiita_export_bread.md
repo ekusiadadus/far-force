@@ -1,9 +1,14 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: パン屋のアルゴリズム
-author: ekusiadadus
-slide: false
+title: "パン屋のアルゴリズム"
+pubDate: 2022-12-03
+description: "パン屋のアルゴリズム"
+author: "@ekusiadadus"
+image:
+  url: "https://avatars.githubusercontent.com/u/70436490?s=400&u=a714da7802c65046265c6848887eecddfc58b5c0&v=4"
+  alt: "パン屋のアルゴリズム"
 tags: ["Rust", "C++", "並行処理", "アセンブラ"]
+published: true
 ---
 
 # パン屋のアルゴリズムを理解する

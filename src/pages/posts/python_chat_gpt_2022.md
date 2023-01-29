@@ -1,9 +1,14 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 今話題の ChatGPT を Python でいい感じに使ってみよう！
-tags: Python, ChatGPT, GPT-3
-author: ekusiadadus
-slide: false
+title: "今話題の ChatGPT を Python でいい感じに使ってみよう！"
+pubDate: 2022-12-03
+description: "今話題の ChatGPT を Python でいい感じに使ってみよう！"
+author: "@ekusiadadus"
+image:
+  url: "https://avatars.githubusercontent.com/u/70436490?s=400&u=a714da7802c65046265c6848887eecddfc58b5c0&v=4"
+  alt: "今話題の ChatGPT を Python でいい感じに使ってみよう！"
+tags: ["Python", "ChatGPT", "GPT-3"]
+published: true
 ---
 
 # 今話題の ChatGPT を Python でいい感じに使ってみよう！

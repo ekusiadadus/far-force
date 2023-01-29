@@ -1,9 +1,14 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: ハッカソン型インターンの運営をした話
+title: "ハッカソン型インターンの運営をした話"
+pubDate: 2022-12-03
+description: "ハッカソン型インターンの運営をした話"
+author: "@ekusiadadus"
+image:
+  url: "https://avatars.githubusercontent.com/u/70436490?s=400&u=a714da7802c65046265c6848887eecddfc58b5c0&v=4"
+  alt: "ハッカソン型インターンの運営をした話"
 tags: ["ハッカソン", "インターン", "React", "Firebase", "競技プログラミング"]
-author: ekusiadadus
-slide: false
+published: true
 ---
 
 # ハッカソン型インターンの運営をした話

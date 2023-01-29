@@ -1,9 +1,14 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: Twitter を BigQuery と JupyterLab で分析してみた ~ Twitter API v2 ~
+title: "Twitter を BigQuery と JupyterLab で分析してみた ~ Twitter API v2 ~"
+pubDate: 2022-12-03
+description: "Twitter を BigQuery と JupyterLab で分析してみた ~ Twitter API v2 ~"
+author: "@ekusiadadus"
+image:
+  url: "https://avatars.githubusercontent.com/u/70436490?s=400&u=a714da7802c65046265c6848887eecddfc58b5c0&v=4"
+  alt: "Twitter を BigQuery と JupyterLab で分析してみた ~ Twitter API v2 ~"
 tags: ["Twitter", "BigQuery", "JupyterLab", "Python"]
-author: ekusiadadus
-slide: false
+published: true
 ---
 
 # Twitter を BigQuery と JupyterLab で分析してみた ~ Twitter API v2 ~

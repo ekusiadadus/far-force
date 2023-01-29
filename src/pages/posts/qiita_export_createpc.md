@@ -1,9 +1,14 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 自作PC構成2020
+title: "自作PC構成2020"
+pubDate: 2022-12-03
+description: "自作PC構成2020"
+author: "@ekusiadadus"
+image:
+  url: "https://avatars.githubusercontent.com/u/70436490?s=400&u=a714da7802c65046265c6848887eecddfc58b5c0&v=4"
+  alt: "自作PC構成2020"
 tags: 自作PC
-author: ekusiadadus
-slide: false
+published: true
 ---
 
 # 自作 PC 構成

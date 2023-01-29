@@ -1,9 +1,14 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 仕事中にワールドカップをばれないように見る、CLIツールをRustで作ってみた
+title: "仕事中にワールドカップをばれないように見る、CLIツールをRustで作ってみた"
+pubDate: 2022-12-03
+description: "仕事中にワールドカップをばれないように見る、CLIツールをRustで作ってみた"
+author: "@ekusiadadus"
+image:
+  url: "https://avatars.githubusercontent.com/u/70436490?s=400&u=a714da7802c65046265c6848887eecddfc58b5c0&v=4"
+  alt: "仕事中にワールドカップをばれないように見る、CLIツールをRustで作ってみた"
 tags: ["Twitter", "WorldCup", "CLI", "Rust"]
-author: ekusiadadus
-slide: false
+published: true
 ---
 
 # 仕事中にワールドカップをばれないように見る CLI ツールを Rust で作ってみた

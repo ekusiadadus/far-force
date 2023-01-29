@@ -1,9 +1,14 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: クラウドサーバーを作る
+title: "クラウドサーバーを作る"
+pubDate: 2022-12-03
+description: "クラウドサーバーを作る"
+author: "@ekusiadadus"
+image:
+  url: "https://avatars.githubusercontent.com/u/70436490?s=400&u=a714da7802c65046265c6848887eecddfc58b5c0&v=4"
+  alt: "クラウドサーバーを作る"
 tags: ["RaspberryPi", "nextcloud", "ubuntu20.04"]
-author: ekusiadadus
-slide: false
+published: true
 ---
 
 # クラウドサーバーを作る

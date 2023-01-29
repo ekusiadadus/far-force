@@ -1,9 +1,14 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: Go言語+Elasticsearchで簡易求人検索バックエンド構築
+title: "Go言語+Elasticsearchで簡易求人検索バックエンド構築"
+pubDate: 2022-12-03
+description: "Go言語+Elasticsearchで簡易求人検索バックエンド構築"
+author: "@ekusiadadus"
+image:
+  url: "https://avatars.githubusercontent.com/u/70436490?s=400&u=a714da7802c65046265c6848887eecddfc58b5c0&v=4"
+  alt: "Go言語+Elasticsearchで簡易求人検索バックエンド構築"
 tags: ["Go", "Elasticsearch", "Kibana", "Docker", "docker-compose"]
-author: ekusiadadus
-slide: false
+published: true
 ---
 
 # Go 言語+Elasticsearch で簡易求人サイトバックエンド構築

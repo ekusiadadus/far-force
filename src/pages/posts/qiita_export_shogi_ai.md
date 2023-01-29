@@ -1,9 +1,14 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 将棋AIを作る
+title: "将棋AIを作る"
+pubDate: 2022-12-03
+description: "将棋AIを作る"
+author: "@ekusiadadus"
+image:
+  url: "https://avatars.githubusercontent.com/u/70436490?s=400&u=a714da7802c65046265c6848887eecddfc58b5c0&v=4"
+  alt: "将棋AIを作る"
 tags: ["AI", "将棋", "Chainer", "NVIDIA", "Ryzen"]
-author: ekusiadadus
-slide: false
+published: true
 ---
 
 # はじめに
