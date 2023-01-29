@@ -8,7 +8,6 @@ image:
   url: "https://avatars.githubusercontent.com/u/70436490?s=400&u=a714da7802c65046265c6848887eecddfc58b5c0&v=4"
   alt: "Go言語+Elasticsearchで簡易求人検索バックエンド構築"
 tags: ["Go", "Elasticsearch", "Kibana", "Docker", "docker-compose"]
-published: true
 ---
 
 # Go 言語+Elasticsearch で簡易求人サイトバックエンド構築

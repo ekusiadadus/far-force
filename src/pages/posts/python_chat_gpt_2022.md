@@ -8,7 +8,6 @@ image:
   url: "https://avatars.githubusercontent.com/u/70436490?s=400&u=a714da7802c65046265c6848887eecddfc58b5c0&v=4"
   alt: "今話題の ChatGPT を Python でいい感じに使ってみよう！"
 tags: ["Python", "ChatGPT", "GPT-3"]
-published: true
 ---
 
 # 今話題の ChatGPT を Python でいい感じに使ってみよう！

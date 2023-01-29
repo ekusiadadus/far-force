@@ -8,7 +8,6 @@ image:
   url: "https://avatars.githubusercontent.com/u/70436490?s=400&u=a714da7802c65046265c6848887eecddfc58b5c0&v=4"
   alt: "将棋AIを作る"
 tags: ["AI", "将棋", "Chainer", "NVIDIA", "Ryzen"]
-published: true
 ---
 
 # はじめに

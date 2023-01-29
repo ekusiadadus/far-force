@@ -8,7 +8,6 @@ image:
   url: "https://avatars.githubusercontent.com/u/70436490?s=400&u=a714da7802c65046265c6848887eecddfc58b5c0&v=4"
   alt: "grafbase で GraphQL やってみたけど動かない"
 tags: ["GitHub Actions", "Cron", "GitHub CLI"]
-published: true
 ---
 
 # grafbase で GraphQL やってみたけど動かない

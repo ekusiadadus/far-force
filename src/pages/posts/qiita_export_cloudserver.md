@@ -8,7 +8,6 @@ image:
   url: "https://avatars.githubusercontent.com/u/70436490?s=400&u=a714da7802c65046265c6848887eecddfc58b5c0&v=4"
   alt: "クラウドサーバーを作る"
 tags: ["RaspberryPi", "nextcloud", "ubuntu20.04"]
-published: true
 ---
 
 # クラウドサーバーを作る

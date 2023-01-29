@@ -3,12 +3,11 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: "MySQL WorkBench でスロークエリをとって ISUCON 頑張る"
 pubDate: 2022-12-03
 description: "MySQL WorkBench でスロークエリをとって ISUCON 頑張る"
-author: "@ekusiadadus"
+author: "ekusiadadus"
 image:
   url: "https://avatars.githubusercontent.com/u/70436490?s=400&u=a714da7802c65046265c6848887eecddfc58b5c0&v=4"
   alt: "MySQL WorkBench でスロークエリをとって ISUCON 頑張る"
 tags: ["ISUCON", "Golang", "MySQL WorkBench", "Go", "MySQL"]
-published: true
 ---
 
 # MySQL WorkBench でスロークエリをとって ISUCON 頑張る

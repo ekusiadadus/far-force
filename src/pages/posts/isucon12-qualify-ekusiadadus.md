@@ -8,7 +8,6 @@ image:
   url: "https://avatars.githubusercontent.com/u/70436490?s=400&u=a714da7802c65046265c6848887eecddfc58b5c0&v=4"
   alt: "ISUCON12予選にGo言語で出場して、26位で予選落ちした話"
 tags: ["GitHub Actions", "Cron", "GitHub CLI"]
-published: true
 ---
 
 # ISUCON12 予選に Go 言語で出場して、26 位で予選落ちした話

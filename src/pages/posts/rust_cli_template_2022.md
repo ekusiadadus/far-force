@@ -8,7 +8,6 @@ image:
   url: "https://avatars.githubusercontent.com/u/70436490?s=400&u=a714da7802c65046265c6848887eecddfc58b5c0&v=4"
   alt: "Rustでコマンドラインツールを爆速で作る環境を構築しよう2022年版"
 tags: ["Rust", "cli", "clap"]
-published: true
 ---
 
 こんにちは、[@ekusiadadus](https://qiita.com/ekusiadadus)です。
