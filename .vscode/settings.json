@@ -1,0 +1,9 @@
+{
+  "editor.fontFamily": "'Ricty Diminished', Ricty, Menlo, Monaco, 'Courier New'",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  }
+}

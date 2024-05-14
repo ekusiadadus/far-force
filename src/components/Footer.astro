@@ -1,0 +1,35 @@
+---
+const platform = "github";
+const username = "ekusiadadus";
+---
+
+<footer>
+  <p>
+    Learn more about my projects on <a
+      href={`https://www.${platform}.com/${username}`}>{platform}</a
+    >!
+  </p>
+  <img
+    src="https://api.netlify.com/api/v1/badges/3d7efa8d-bfa7-46cb-855c-7797ff7a2744/deploy-status"
+    alt="Netlify Status"
+  />
+</footer>
+
+<style>
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f5f5f5;
+    border-top: 1px solid #eaeaea;
+  }
+  footer img {
+    width: 88px;
+    height: 31px;
+  }
+  footer p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+</style>
